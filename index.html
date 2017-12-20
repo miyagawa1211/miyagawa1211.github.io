@@ -3,34 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>KAKERU MIYAGAWA PORTFOLIO SITE</title>
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">-->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>KAKERU MIYAGAWA PORTFOLIO SITE</h1>
-    
-    <p>GRAPHIC  /・WEB / MOTION</p>
-    
-    <h2>PROFILE</h2>
-    
-    <p>宮川 翔</p>
-    <p>神奈川県生まれ。現在は大学生で勉強中。<br>
-    子供の頃からゲームが好きで、いずれはゲーム会社で働きたいと思っている<br>
-    小学生の頃はテニスと野球、中学高校では柔道をやっていました。<br>
-        どうぞよろしく。</p>
-    
-    <h2>WORKS</h2>
-    <p>これまでの制作事例を紹介</p>
-    <h3>GRAPHIC</h3>
-    <img src="img/3D.png" alt="GRAPHIC">
-    <p>3D画像制作</p>
-    <h3>MOTION</h3>
-    <img src="img/processing.png" alt="MOTION">
-    <p>Processing</p>
-    <h3>WEB/APP</h3>
-    <img src="img/web.png" alt="WEB/APP">
-    <p>Webサイト</p>
-    
-    
-    <p>copyright.,  .com</p>
+<header>
+    <div class="header-container">
+        <h1>KAKERU MIYAGAWA PORTFOLIO SITE</h1>
 
+        <p>GRAPHIC  / MOTION/ WEB</p>
+    </div>
+</header>
+   
+    <div class="profile">
+        <h2>PROFILE</h2>
+
+        <p>宮川 翔</p>
+        <p>神奈川県生まれ。現在は大学生で勉強中。<br>
+        子供の頃からゲームが好きで、いずれはゲーム会社で働きたいと思っている<br>
+        小学生の頃はテニスと野球、中学高校では柔道をやっていました。<br>
+        どうぞよろしく。</p>
+    </div>
+    <div class="works">
+        <h2>WORKS</h2>
+            <p>これまでの制作事例を紹介</p>
+        <div class="works-container">
+            <div class="graphic">
+                <h3>GRAPHIC</h3>
+                <img src="img/3D.png" alt="GRAPHIC">
+                <p>3D画像制作</p>
+            </div>
+            <div class="motion">
+                <h3>MOTION</h3>
+                <img src="img/processing.png" alt="MOTION">
+                <p>Processing</p>
+            </div>
+            <div class="webapp">
+                <h3>WEB/APP</h3>
+                <img src="img/web.png" alt="WEB/APP">
+                <p>Webサイト</p>
+            </div>
+        </div>
+    </div>
+    <div class="copy">
+    <p>copyright.,  .com</p>
+    </div>
+<canvas id="sketch_171002d" data-processing-sources="sketch_171002d.pde" width="1000" height="700"></canvas>
+	<script src="processing.min.js"></script>
+	<script>
+	function getProcessingSketchId () { return 'sketch_171002d'; }
+	</script>
 </body>
 </html>
