@@ -34,6 +34,7 @@ header p{
     padding: 72px 0;
     text-align: center;
     background: url(../img/profile.png)center repeat;
+    background-size: cover;
 }
 .profile h2{
     font-size: 36px;
@@ -77,4 +78,8 @@ header p{
 .copy{
     text-align: center;
     padding-top: 118px;
+}
+.pro{
+    overflow: hidden;
+    
 }
