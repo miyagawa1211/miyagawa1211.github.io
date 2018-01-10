@@ -1,0 +1,53 @@
+/* Header -------------------------- */
+
+header{
+    width: 100%;
+    height:440px;
+    background:url(../img/works%20image.jpg) center repeat;
+    background-size:cover;
+    padding-top: 160px;
+    text-align: center;
+}
+.header-container{
+    width: 100%;
+    height: 188px;
+
+    padding-top: 90px;
+}
+header h1{
+    font-size: 36px;
+
+    font-weight: 700
+
+}
+header p{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300
+}
+
+
+/* Works -------------------------- */
+
+.works{
+    width: auto;
+    text-align: center;
+    background:url(../img/workp1.png)center repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.woaks-container{
+    width: 1056;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.graphic{
+    width: 352px;
+}
+.motion{
+    width: 352px;
+}
+.webapp{
+    width: 352px;
+}
